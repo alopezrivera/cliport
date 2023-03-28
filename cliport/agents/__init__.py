@@ -17,12 +17,17 @@ from cliport.agents.transporter import TwoStreamClipUNetLatTransporterAgent
 from cliport.agents.transporter_lang_goal import TwoStreamClipLingUNetLatTransporterAgent
 from cliport.agents.transporter_lang_goal import TwoStreamClipFilmLingUNetLatTransporterAgent
 
+from cliport.agents.simple_transporter_lang_goal import SimpleTwoStreamClipLingUNetLatTransporterAgent
 
 names = {
          ################################
          ### CLIPort ###
          'cliport': TwoStreamClipLingUNetLatTransporterAgent,
          'two_stream_clip_lingunet_lat_transporter': TwoStreamClipLingUNetLatTransporterAgent,
+
+         ### SIMPLE CLIPort ###
+         'simple_cliport': SimpleTwoStreamClipLingUNetLatTransporterAgent,
+         'simple_two_stream_clip_lingunet_lat_transporter': SimpleTwoStreamClipLingUNetLatTransporterAgent,
 
          ################################
          ### Two-Stream Architectures ###

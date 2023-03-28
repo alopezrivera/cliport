@@ -16,6 +16,8 @@ from cliport.models.clip_unet_lat import CLIPUNetLat
 from cliport.models.clip_lingunet_lat import CLIPLingUNetLat
 from cliport.models.clip_film_lingunet_lat import CLIPFilmLingUNet
 
+from cliport.models.simple_resnet_lat import SimpleResNet45_10s
+from cliport.models.simple_clip_lingunet_lat import SimpleCLIPLingUNetLat
 
 names = {
     # resnet
@@ -40,4 +42,9 @@ names = {
     'clip_lingunet_lat': CLIPLingUNetLat,
     'clip_film_lingunet_lat': CLIPFilmLingUNet,
     'rn50_bert_lingunet_lat': RN50BertLingUNetLat,
+
+    # simplified models
+    'simple_resnet_lat': SimpleResNet45_10s,
+    'simple_clip_lingunet_lat': SimpleCLIPLingUNetLat,
 }
+
