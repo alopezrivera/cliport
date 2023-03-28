@@ -8,7 +8,7 @@ from cliport.models.resnet import ConvBlock, IdentityBlock
 
 class SimpleResNet45_10s(nn.Module):
     def __init__(self, input_shape, output_dim, cfg, device, preprocess):
-        super(ResNet45_10s, self).__init__()
+        super(SimpleResNet45_10s, self).__init__()
         self.input_shape = input_shape
         self.input_dim = input_shape[-1]
         self.output_dim = output_dim

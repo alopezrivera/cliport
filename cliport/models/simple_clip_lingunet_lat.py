@@ -15,7 +15,7 @@ class SimpleCLIPLingUNetLat(nn.Module):
     """ CLIP RN50 with U-Net skip connections and lateral connections """
 
     def __init__(self, input_shape, output_dim, cfg, device, preprocess, clip_rn50=None):
-        super(CLIPLingUNetLat, self).__init__()
+        super(SimpleCLIPLingUNetLat, self).__init__()
         self.input_shape = input_shape
         self.output_dim = output_dim
         self.input_dim = 2048  # penultimate layer channel-size of CLIP-RN50
@@ -28,10 +28,10 @@ class SimpleCLIPLingUNetLat(nn.Module):
         self.preprocess = preprocess
 
         # Introduced the option to directly reuse the frozen CLIP RN50 without reloading it
-        if clip_rn50 is None:
-            self._load_clip()
-        else:
+        if clip_rn50 is not None:
             self.clip_rn50 = clip_rn50
+        else:
+            self._load_clip()
             
         self._build_decoder()
 

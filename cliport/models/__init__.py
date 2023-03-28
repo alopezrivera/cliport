@@ -44,7 +44,7 @@ names = {
     'rn50_bert_lingunet_lat': RN50BertLingUNetLat,
 
     # simplified models
-    'simple_resnet_lat': SimpleResNet45_10s,
+    'simple_plain_resnet_lat': SimpleResNet45_10s,
     'simple_clip_lingunet_lat': SimpleCLIPLingUNetLat,
 }
 
