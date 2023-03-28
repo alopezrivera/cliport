@@ -24,7 +24,7 @@ class SimpleTwoStreamClipLingUNetLatTransporterAgent(TwoStreamClipLingUNetTransp
             device=self.device_type,
         )
         self.transport = SimpleTwoStreamTransportLangFusionLat(
-            stream_fcn=(stream_one_fcn, self.attention.attn_stream_two),
+            stream_fcn=(stream_one_fcn, (stream_two_fcn, self.attention.attn_stream_two.clip_rn50)),
             in_shape=self.in_shape,
             n_rotations=self.n_rotations,
             crop_size=self.crop_size,

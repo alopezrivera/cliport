@@ -17,22 +17,35 @@ class TwoStreamTransportLangFusion(Transport):
         stream_one_fcn, stream_two_fcn = self.stream_fcn
         stream_one_model = models.names[stream_one_fcn]
 
-        reusing_clip_rn50 = type(stream_two_fcn) != str
-        stream_two_model = models.names[stream_two_fcn] if not reusing_clip_rn50 else stream_two_fcn
+        # Reusing CLIP ResNet50 to reduce the memory footprint of the frozen model by 2
+        # -----------------------------------------------------------------------------
+        # Firstly, assert that correct input has beeen supplied
+        assert isinstance(stream_two_fcn, str) or (isinstance(stream_two_fcn, tuple) and stream_two_fcn[0] == 'simple_clip_lingunet_lat')
+        # Reuse CLIP ResNet50 if passed a tuple with (str: the name of the network, obj: rn50 instance)
+        reusing_clip_rn50 = type(stream_two_fcn) == tuple
+        # Retrieve second stream model class name
+        stream_two_model = models.names[stream_two_fcn] if not reusing_clip_rn50 else models.names[stream_two_fcn[0]]
+        # ------------------------------------------------------------------------------------------------------------------------
 
+        # First key stream
         self.key_stream_one = stream_one_model(self.in_shape, self.output_dim, self.cfg, self.device, self.preprocess)
-        # self.key_stream_two = stream_two_model(self.in_shape, self.output_dim, self.cfg, self.device, self.preprocess)
+        # Second key stream
         if reusing_clip_rn50:
-            self.key_stream_two = stream_two_model(self.in_shape, self.output_dim, self.cfg, self.device, self.preprocess, clip_rn50=stream_two_fcn.clip_rn50)
+            # Reuse RN50
+            self.key_stream_two = stream_two_model(self.in_shape, self.output_dim, self.cfg, self.device, self.preprocess, clip_rn50=stream_two_fcn[1])
         else:
+            # Proceed as previously
             self.key_stream_two = stream_two_model(self.in_shape, self.output_dim, self.cfg, self.device, self.preprocess)
 
-        self.query_stream_one = stream_one_model(self.kernel_shape, self.kernel_dim, self.cfg, self.device, self.preprocess)        
-        # self.query_stream_two = stream_two_model(self.kernel_shape, self.kernel_dim, self.cfg, self.device, self.preprocess)
+        # First query stream
+        self.query_stream_one = stream_one_model(self.kernel_shape, self.kernel_dim, self.cfg, self.device, self.preprocess)
+        # Second query stream
         if reusing_clip_rn50:
-            self.query_stream_two = stream_two_model(self.in_shape, self.output_dim, self.cfg, self.device, self.preprocess, clip_rn50=stream_two_fcn.clip_rn50)
+            # Reuse RN50
+            self.query_stream_two = stream_two_model(self.kernel_shape, self.kernel_dim, self.cfg, self.device, self.preprocess, clip_rn50=stream_two_fcn[1])
         else:
-            self.query_stream_two = stream_two_model(self.in_shape, self.output_dim, self.cfg, self.device, self.preprocess)
+            # Proceed as previously
+            self.query_stream_two = stream_two_model(self.kernel_shape, self.kernel_dim, self.cfg, self.device, self.preprocess)
         
         self.fusion_key = fusion.names[self.fusion_type](input_dim=self.kernel_dim)
         self.fusion_query = fusion.names[self.fusion_type](input_dim=self.kernel_dim)
