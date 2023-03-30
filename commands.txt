@@ -1,0 +1,28 @@
+#login
+ssh <netid>@login.delftblue.tudelft.nl
+
+#make new folder
+cd /scratch/<netid>
+mkdir <project_name>
+cd <project_name>
+
+#transfer data
+scp -p mylocalfile <netid>@login.delftblue.tudelft.nl:~/destination_folder_on_DelftBlue/
+
+#make virtual environment
+python3.8 -m venv --system-site-packages cliport_env
+source cliport_env/bin/activate
+pip install -r requirements.txt
+export CLIPORT_ROOT=$(pwd)
+
+#submit job via script
+sbatch my-first-job-script.sh
+
+#check queue
+squeue -u <netid>
+
+#transfer folder back
+scp -pr <netid>@login.delftblue.tudelft.nl:~/origin_folder_on_DelftBlue/remotefolder ./
+
+#sync files in the folders
+rsync -av ${source} ${target}
