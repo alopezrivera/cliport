@@ -20,6 +20,7 @@ sbatch my-first-job-script.sh
 
 #check queue
 squeue -u <netid>
+squeue -u <netid> --start
 
 #transfer folder back
 scp -pr <netid>@login.delftblue.tudelft.nl:~/origin_folder_on_DelftBlue/remotefolder ./
