@@ -25,4 +25,4 @@ wandb==0.10.15
 # To solve [wanb] TypeError: Descriptors cannot not be created directly.
 protobuf==3.20.*
 # To solve [PIL] ImportError: cannot import name '_imaging' from 'PIL'
-Pillow==9.4.0
+Pillow
