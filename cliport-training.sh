@@ -11,6 +11,7 @@
 module load 2022r2
 module load python/3.8
 source cliport_env/bin/activate
+export CLIPORT_ROOT=$(pwd)
 
 
 srun python cliport/train.py train.task=towers-of-hanoi-seq-seen-colors \
