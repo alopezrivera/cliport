@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --gpus=1
 #SBATCH --mem=12G
-#SBATCH --account=research-ae-spe
+#SBATCH --account=research-eemcs-diam
 
 module load 2022r2
 module load python/3.8
