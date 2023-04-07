@@ -1,3 +1,4 @@
+export CLIPORT_ROOT=$(pwd)
 # Evaluate pre-trained model
 python cliport/eval.py model_task=multi-language-conditioned \
                        eval_task=stack-block-pyramid-seq-seen-colors \
@@ -8,4 +9,4 @@ python cliport/eval.py model_task=multi-language-conditioned \
                        exp_folder=cliport_quickstart \
                        checkpoint_type=test_best \
                        update_results=True \
-                       disp=True
+                       disp=False
