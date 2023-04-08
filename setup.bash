@@ -1,6 +1,5 @@
 # Clone repo
 git clone "https://github.com/cliport/cliport.git"
-cd cliport
 
 # Install Python 3.8
 sudo add-apt-repository ppa:deadsnakes/ppa
@@ -14,6 +13,7 @@ python3.8 -m venv --system-site-packages cliport_env
 source cliport_env/bin/activate
 
 # Install requirements
+cd cliport
 pip install -r requirements.txt
 
 # Final set up
