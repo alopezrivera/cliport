@@ -1,6 +1,10 @@
 """Data collection script."""
 
 import os
+import sys
+
+sys.path.append('.')
+
 import hydra
 import numpy as np
 import random

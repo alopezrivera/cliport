@@ -26,3 +26,5 @@ wandb==0.10.15
 protobuf==3.20.*
 # To solve [PIL] ImportError: cannot import name '_imaging' from 'PIL'
 Pillow
+# To solve [transformers] packaging.version.InvalidVersion: Invalid version: '0.10.1,<0.11'
+packaging==21.3

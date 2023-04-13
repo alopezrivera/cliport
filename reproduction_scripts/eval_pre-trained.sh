@@ -1,7 +1,7 @@
 export CLIPORT_ROOT=$(pwd)
 # Evaluate pre-trained model
 python cliport/eval.py model_task=multi-language-conditioned \
-                       eval_task=stack-block-pyramid-seq-seen-colors \
+                       eval_task=towers-of-hanoi-seq-seen-colors \
                        agent=cliport \
                        mode=test \
                        n_demos=10 \

@@ -1,0 +1,2972 @@
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: ['steps=01000-val_loss=0.00028864.ckpt', 'steps=02000-val_loss=0.00019316.ckpt', 'steps=03000-val_loss=0.00028343.ckpt', 'steps=04000-val_loss=0.00065333.ckpt', 'steps=05000-val_loss=0.00058880.ckpt', 'steps=07000-val_loss=0.00042494.ckpt']
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n10, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=01000-val_loss=0.00028864.ckpt
+Test: 1/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Mean: 0.42857142857142855 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Test: 2/10
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Mean: 0.21428571428571427 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Test: 3/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.23809523809523805 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Test: 4/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Warning: movej exceeded 5 second timeout. Skipping.
+Total Reward: 0.000 | Done: True
+
+Mean: 0.17857142857142855 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Test: 5/10
+Lang Goal: move the red ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Mean: 0.1714285714285714 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Test: 6/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Mean: 0.16666666666666663 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Test: 7/10
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Mean: 0.14285714285714282 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Test: 8/10
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Mean: 0.14285714285714285 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Test: 9/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the green ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the green ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the green ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the green ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the green ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the green ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the green ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the green ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the green ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the green ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Mean: 0.19047619047619047 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Test: 10/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n10, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=02000-val_loss=0.00019316.ckpt
+Test: 1/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Test: 2/10
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Test: 3/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Test: 4/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the yellow ring to the lighter brown side
+Total Reward: 0.714 | Done: False
+
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.714 | Done: False
+
+Lang Goal: move the green ring to the darker brown side
+Warning: movej exceeded 5 second timeout. Skipping.
+Total Reward: 0.714 | Done: True
+
+Mean: 0.3928571428571428 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Test: 5/10
+Lang Goal: move the red ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.37142857142857133 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Test: 6/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.35714285714285704 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Test: 7/10
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.34693877551020397 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Test: 8/10
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.33928571428571425 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Test: 9/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.33333333333333326 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Test: 10/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.3285714285714285 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n10, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=03000-val_loss=0.00028343.ckpt
+Test: 1/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Test: 2/10
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Test: 3/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Test: 4/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Test: 5/10
+Lang Goal: move the red ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Test: 6/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.28571428571428564 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Test: 7/10
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Mean: 0.26530612244897955 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Test: 8/10
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.26785714285714285 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Test: 9/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2698412698412698 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Test: 10/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Mean: 0.2571428571428571 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n10, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=04000-val_loss=0.00065333.ckpt
+Test: 1/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Test: 2/10
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Test: 3/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Mean: 0.23809523809523805 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Test: 4/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Mean: 0.21428571428571425 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Test: 5/10
+Lang Goal: move the red ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the red ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the red ring to the lighter brown side
+Warning: movej exceeded 5 second timeout. Skipping.
+Total Reward: 0.571 | Done: True
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Test: 6/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.28571428571428564 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Test: 7/10
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Mean: 0.26530612244897955 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Test: 8/10
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Mean: 0.23214285714285715 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Test: 9/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.23809523809523808 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Test: 10/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Mean: 0.22857142857142856 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n10, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=05000-val_loss=0.00058880.ckpt
+Test: 1/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Test: 2/10
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Test: 3/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Mean: 0.23809523809523805 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Test: 4/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the yellow ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the yellow ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the yellow ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the yellow ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the yellow ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the yellow ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the yellow ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the yellow ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Lang Goal: move the yellow ring to the lighter brown side
+Total Reward: 0.571 | Done: False
+
+Mean: 0.3214285714285714 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Test: 5/10
+Lang Goal: move the red ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.3142857142857142 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Test: 6/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.3095238095238095 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Test: 7/10
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.3061224489795918 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Test: 8/10
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.30357142857142855 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Test: 9/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.30158730158730157 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Test: 10/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.29999999999999993 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n10, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=07000-val_loss=0.00042494.ckpt
+Test: 1/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Mean: 0.0 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+Test: 2/10
+Lang Goal: move the blue ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.14285714285714285 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+Test: 3/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Mean: 0.09523809523809523 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+Test: 4/10
+Lang Goal: move the yellow ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Mean: 0.17857142857142855 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+Test: 5/10
+Lang Goal: move the red ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.19999999999999998 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+Test: 6/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the red ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.21428571428571427 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+Test: 7/10
+Lang Goal: move the brown ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.22448979591836732 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+Test: 8/10
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the brown ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.23214285714285712 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+Test: 9/10
+Lang Goal: move the green ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the blue ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the green ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.23809523809523808 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+Test: 10/10
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the gray ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.24285714285714283 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+[2023-04-10 15:54:02,249][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: ['steps=01000-val_loss=0.00028864.ckpt', 'steps=02000-val_loss=0.00019316.ckpt', 'steps=03000-val_loss=0.00028343.ckpt', 'steps=04000-val_loss=0.00065333.ckpt', 'steps=05000-val_loss=0.00058880.ckpt', 'steps=07000-val_loss=0.00042494.ckpt']
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n1, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=01000-val_loss=0.00028864.ckpt
+Test: 1/1
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Lang Goal: move the gray ring to the darker brown side
+Total Reward: 0.429 | Done: False
+
+Mean: 0.42857142857142855 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=01000-val_loss=0.00028864.ckpt
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n1, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=02000-val_loss=0.00019316.ckpt
+Test: 1/1
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=02000-val_loss=0.00019316.ckpt
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n1, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=03000-val_loss=0.00028343.ckpt
+Test: 1/1
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=03000-val_loss=0.00028343.ckpt
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n1, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=04000-val_loss=0.00065333.ckpt
+Test: 1/1
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=04000-val_loss=0.00065333.ckpt
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n1, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=05000-val_loss=0.00058880.ckpt
+Test: 1/1
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.143 | Done: False
+
+Lang Goal: move the yellow ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Lang Goal: move the cyan ring to the middle of the stand
+Total Reward: 0.286 | Done: False
+
+Mean: 0.2857142857142857 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=05000-val_loss=0.00058880.ckpt
+Attn FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: add
+Transport FCN - Stream One: plain_resnet_lat, Stream Two: clip_lingunet_lat, Stream Fusion: conv
+Agent: towers-of-hanoi-seq-seen-colors-cliport-n1, Logging: False
+Loaded: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/steps=07000-val_loss=0.00042494.ckpt
+Test: 1/1
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Lang Goal: move the cyan ring to the darker brown side
+Total Reward: 0.000 | Done: False
+
+Mean: 0.0 | Task: towers-of-hanoi-seq-seen-colors | Ckpt: steps=07000-val_loss=0.00042494.ckpt
+[2023-04-10 18:06:47,112][wandb.sdk.internal.internal][INFO] - Internal process exited
+Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:35:29,320][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [pybullet build time: Sep 22 2020 00:56:01
+Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:40:53,748][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:42:38,777][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:43:32,964][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:45:00,912][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:45:38,394][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:52:08,806][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:53:10,535][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:53:47,207][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:54:55,810][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:55:34,875][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 12:57:49,653][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [Save path for results: /notebooks/cliport/exps/towers-of-hanoi-seq-seen-colors-cliport-n1-train/checkpoints/
+Evaluating: []
+[2023-04-13 13:02:42,428][wandb.sdk.internal.internal][INFO] - Internal process exited
+pybullet build time: Sep 22 2020 00:56:01
+text argument:/notebooks/cliport/cliport/environments/assets/
+int args: [pybullet build time: Sep 22 2020 00:56:01

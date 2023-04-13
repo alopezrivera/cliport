@@ -1,6 +1,10 @@
 """Ravens main training script."""
 
 import os
+import sys
+
+sys.path.append('.')
+
 import pickle
 import json
 

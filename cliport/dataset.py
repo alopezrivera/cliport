@@ -1,6 +1,10 @@
 """Image dataset."""
 
 import os
+import sys
+
+sys.path.append('.')
+
 import pickle
 import warnings
 
