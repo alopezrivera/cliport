@@ -34,4 +34,4 @@ python cliport/eval.py eval_task=towers-of-hanoi-seq-seen-colors \
                        n_demos=10 \
                        train_demos=${N_DEMOS} \
                        checkpoint_type=val_missing \
-                       exp_folder=exps | tee -a reproduction_logs/cliport_full_seen_eval_n$N_DEMOS.txt
+                       exp_folder=exps | tee -a reproduction_logs/cliport_full_seen_eval_n${N_DEMOS}.txt
