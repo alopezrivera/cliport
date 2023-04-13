@@ -16,7 +16,7 @@ echo "============================================"
 sleep 1
 
 # Train simple model on towers of hanoi problem
-python cliport/train.py train.task=towers-of-hanoi-seq-seen-colors \
+python cliport/train.py train.task=towers-of-hanoi-seq-unseen-colors \
                         train.agent=simple_cliport \
                         train.attn_stream_fusion_type=add \
                         train.trans_stream_fusion_type=conv \
@@ -25,13 +25,13 @@ python cliport/train.py train.task=towers-of-hanoi-seq-seen-colors \
                         train.n_val=${N_DEMOS} \
                         train.n_steps=${N_EPOCHS} \
                         train.exp_folder=exps \
-                        dataset.cache=False | tee -a reproduction_logs/cliport_simple_seen_train_n${N_DEMOS}.txt
+                        dataset.cache=False | tee -a reproduction_logs/cliport_simple_unseen_train_n${N_DEMOS}.txt
 
 # Evaluate simple model on towers of hanoi problem
-python cliport/eval.py eval_task=towers-of-hanoi-seq-seen-colors \
+python cliport/eval.py eval_task=towers-of-hanoi-seq-unseen-colors \
                        agent=simple_cliport \
                        mode=val \
                        n_demos=10 \
                        train_demos=${N_DEMOS} \
                        checkpoint_type=val_missing \
-                       exp_folder=exps | tee -a reproduction_logs/cliport_simple_seen_eval_n${N_DEMOS}.txt
+                       exp_folder=exps | tee -a reproduction_logs/cliport_simple_unseen_eval_n${N_DEMOS}.txt
