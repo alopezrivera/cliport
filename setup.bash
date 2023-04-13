@@ -19,7 +19,7 @@ sudo apt install libjpeg-dev zlib1g-dev
 
 # Install requirements
 cd cliport
-pip install -r requirementsA100.txt # Or requirements.txt if >Turing GPU compatibility not required
+pip install -r requirements.txt
 
 # Final set up
 export CLIPORT_ROOT=$(pwd)
