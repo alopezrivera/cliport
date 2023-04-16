@@ -1,7 +1,7 @@
 export CLIPORT_ROOT=$(pwd)
 
 N_DEMOS=${1:-1} # Script argument, defaulting to 1
-N_EPOCHS=12000
+N_EPOCHS=20000
 
 echo "============================================"
 echo "    Starting training and evaluation of"
@@ -31,7 +31,7 @@ python cliport/train.py train.task=towers-of-hanoi-seq-seen-colors \
 python cliport/eval.py eval_task=towers-of-hanoi-seq-seen-colors \
                        agent=cliport \
                        mode=val \
-                       n_demos=${N_DEMOS} \
+                       n_demos=10 \
                        train_demos=${N_DEMOS} \
                        checkpoint_type=val_missing \
                        exp_folder=exps | tee -a reproduction_logs/cliport_full_seen_eval_n${N_DEMOS}.txt

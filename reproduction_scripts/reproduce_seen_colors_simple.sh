@@ -1,7 +1,7 @@
 export CLIPORT_ROOT=$(pwd)
 
 N_DEMOS=${1:-1} # Script argument, defaulting to 1
-N_EPOCHS=10000
+N_EPOCHS=20000
 
 echo "============================================"
 echo "    Starting training and evaluation of"
