@@ -25,7 +25,7 @@ python cliport/train.py train.task=towers-of-hanoi-seq-unseen-colors \
                         train.n_val=${N_DEMOS} \
                         train.n_steps=${N_EPOCHS} \
                         train.exp_folder=exps \
-                        dataset.cache=False | tee -a reproduction_logs/cliport_full_unseen_train_n${N_DEMOS}.txt
+                        dataset.cache=False
 
 # Evaluate full model on towers of hanoi problem
 python cliport/eval.py eval_task=towers-of-hanoi-seq-unseen-colors \
@@ -34,4 +34,4 @@ python cliport/eval.py eval_task=towers-of-hanoi-seq-unseen-colors \
                        n_demos=10 \
                        train_demos=${N_DEMOS} \
                        checkpoint_type=val_missing \
-                       exp_folder=exps | tee -a reproduction_logs/cliport_full_unseen_eval_n${N_DEMOS}.txt
+                       exp_folder=exps
